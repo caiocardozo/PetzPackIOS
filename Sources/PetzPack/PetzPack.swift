@@ -5,7 +5,7 @@ struct PetzPack {
 public class Claculator {
     public init() {}
     
-    public func multply(_ valueX: Int, _ ValueY: Int) -> Int {
+    static func multply(_ valueX: Int, _ ValueY: Int) -> Int {
         return valueX * ValueY
     }
 }
