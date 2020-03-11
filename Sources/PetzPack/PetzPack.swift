@@ -1,11 +1,16 @@
-struct PetzPack {
-    var text = "Hello, World!"
+import Foundation
+
+public struct PetzPack<Component> {
+    private init() {}
 }
 
-public struct Calculator {
-    public init() {}
-    
-    public static func multply(_ valueX: Int, _ ValueY: Int) -> Int {
-        return valueX * ValueY
+public protocol PetzPackComponent {
+    associatedtype ComponentType
+    static var ptp: PetzPack<ComponentType>.Type { get }
+}
+
+extension PetzPackComponent {
+    public static var ptp: PetzPack<Self>.Type {
+        return PetzPack<Self>.self
     }
 }
