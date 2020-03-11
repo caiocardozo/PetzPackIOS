@@ -5,7 +5,7 @@ struct PetzPack {
 struct Calculator {
     public init() {}
     
-    static func multply(_ valueX: Int, _ ValueY: Int) -> Int {
+    public static func multply(_ valueX: Int, _ ValueY: Int) -> Int {
         return valueX * ValueY
     }
 }
