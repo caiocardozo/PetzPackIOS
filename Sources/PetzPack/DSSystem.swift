@@ -21,9 +21,11 @@ public extension PetzPackDSSettings {
     // MARK: - Corner
     enum RoundedCorner: CGFloat {
         case none = 0
-        case small = 4
-        case medium = 8
-        case big = 16
+        case small = 6
+        case medium = 10
+        case large = 30
+        case extraLarge = 40
+        case big = 56
     }
     
     // MARK: - Border
