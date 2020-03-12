@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct PetzPackDS {
+public class PetzPackDS {
     // MARK: - Opacity
     enum Opacity: CGFloat {
         case opaque = 0.72
