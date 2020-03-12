@@ -9,7 +9,7 @@ import UIKit
 
 public typealias PetzPackRoundedCorner = CGFloat
 
-public extension PetzPackSpacingAndSizing {
+public extension PetzPackRoundedCorner {
 //static let opaque: PetzPackLayoutConstant = 4
     
     enum Opacity: CGFloat {
@@ -17,12 +17,6 @@ public extension PetzPackSpacingAndSizing {
             case medium = 0.50
             case light = 0.24
         }
-}
-
-
-public class PetzPackDS {
-    // MARK: - Opacity
-   
     
     // MARK: - Corner
     enum RoundedCorner: CGFloat {
@@ -32,6 +26,14 @@ public class PetzPackDS {
         case big = 16
         // pill = height/2
     }
+}
+
+
+public class PetzPackDS {
+    // MARK: - Opacity
+   
+    
+    
     
     // MARK: - Border
     enum BorderWidth: CGFloat {
