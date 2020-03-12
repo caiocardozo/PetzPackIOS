@@ -7,11 +7,18 @@
 
 import UIKit
 
-enum Opacity: CGFloat {
-       case opaque = 0.72
-       case medium = 0.50
-       case light = 0.24
-   }
+public typealias PetzPackRoundedCorner = CGFloat
+
+public extension PetzPackSpacingAndSizing {
+//static let opaque: PetzPackLayoutConstant = 4
+    
+    enum Opacity: CGFloat {
+            case opaque = 0.72
+            case medium = 0.50
+            case light = 0.24
+        }
+}
+
 
 public class PetzPackDS {
     // MARK: - Opacity
