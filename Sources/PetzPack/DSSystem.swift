@@ -7,13 +7,15 @@
 
 import UIKit
 
+enum Opacity: CGFloat {
+       case opaque = 0.72
+       case medium = 0.50
+       case light = 0.24
+   }
+
 public class PetzPackDS {
     // MARK: - Opacity
-    enum Opacity: CGFloat {
-        case opaque = 0.72
-        case medium = 0.50
-        case light = 0.24
-    }
+   
     
     // MARK: - Corner
     enum RoundedCorner: CGFloat {
