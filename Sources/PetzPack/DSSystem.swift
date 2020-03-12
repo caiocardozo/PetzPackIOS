@@ -7,23 +7,7 @@
 
 import UIKit
 
-class DSSettings {
-    
-    // MARK: - Colors
-    enum AssetsColor:String{
-        // Importante: colocar aqui também todas as cores que colocar nos Assets (com o mesmo nome pra dar match)
-        case background
-        case dark
-        case darkGray
-        case error
-        case gray
-        case primary
-        case primaryDark
-        case secondary
-        case success
-        case white
-    }
-    
+public struct PetzPackDS {
     // MARK: - Opacity
     enum Opacity: CGFloat {
         case opaque = 0.72
