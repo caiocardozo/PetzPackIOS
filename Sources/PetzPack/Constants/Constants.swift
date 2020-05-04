@@ -20,6 +20,7 @@ public extension PetzPackLayoutConstant {
     static let mediumCornerRadius: PetzPackLayoutConstant = 10
     static let largeCornerRadius: PetzPackLayoutConstant = 20
     static let bigCornerRadius: PetzPackLayoutConstant = 40
+    static let buttonCornerRadius: PetzPackLayoutConstant = 25
 }
 
 public extension PetzPackSpacingAndSizing {
