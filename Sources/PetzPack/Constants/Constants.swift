@@ -14,13 +14,16 @@ public extension PetzPackLayoutConstant {
     static let primaryCornerRadius: PetzPackLayoutConstant = 8
     static let secondaryCornerRadius: PetzPackLayoutConstant = 6
     static let thirdCornerRadius: PetzPackLayoutConstant = 4
-    static let borderWidth: PetzPackLayoutConstant = 1
-    static let secondaryBorderWidth: PetzPackLayoutConstant = 0.5
-    
     static let mediumCornerRadius: PetzPackLayoutConstant = 10
     static let largeCornerRadius: PetzPackLayoutConstant = 20
     static let bigCornerRadius: PetzPackLayoutConstant = 40
     static let buttonCornerRadius: PetzPackLayoutConstant = 25
+    
+    static let borderWidth: PetzPackLayoutConstant = 1
+    static let secondaryBorderWidth: PetzPackLayoutConstant = 0.5
+    
+    static let minimumHeightButton: PetzPackLayoutConstant = 44
+    static let defaultHeightButton: PetzPackLayoutConstant = 50
 }
 
 public extension PetzPackSpacingAndSizing {
@@ -31,7 +34,6 @@ public extension PetzPackSpacingAndSizing {
     static let large: PetzPackLayoutConstant = 32
     static let extraLarge: PetzPackLayoutConstant = 48
     static let ultra: PetzPackLayoutConstant = 64
-    static let buttonHeight: PetzPackLayoutConstant = 48
 }
 
 public extension TimeInterval {
