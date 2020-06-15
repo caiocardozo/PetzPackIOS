@@ -23,7 +23,7 @@ public extension PetzPackLayoutConstant {
     static let secondaryBorderWidth: PetzPackLayoutConstant = 0.5
     
     static let minimumHeightButton: PetzPackLayoutConstant = 44
-    static let defaultHeightButton: PetzPackLayoutConstant = 50
+    static let defaultHeightButton: PetzPackLayoutConstant = 55
 }
 
 public extension PetzPackSpacingAndSizing {
