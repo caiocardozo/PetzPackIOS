@@ -4,7 +4,6 @@
 //
 //  Created by Caio Cardozo on 11/03/20.
 //
-
 import UIKit
 
 public typealias PetzPackLayoutConstant = CGFloat
@@ -23,7 +22,7 @@ public extension PetzPackLayoutConstant {
     static let secondaryBorderWidth: PetzPackLayoutConstant = 0.5
     
     static let minimumHeightButton: PetzPackLayoutConstant = 44
-    static let defaultHeightButton: PetzPackLayoutConstant = 55
+    static let defaultHeightButton: PetzPackLayoutConstant = 50
 }
 
 public extension PetzPackSpacingAndSizing {
